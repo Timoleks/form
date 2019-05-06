@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="dist/style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+      <form action="" class="registration">
+        <h1 class="title">Registration form</h1>
+        
+        <label class="username_label" for="username">
+          <span>Username</span>
+  
+          <input type="text" id="username" minlength="3" required>
+          <ul class="input-requirements">
+            <li>At least 3 characters long</li>
+          </ul>
+  
+        </label>
+  
+        <label for="password">
+          <span>Password</span>
+  
+          <input type="password" id="password" minlength="5" maxlength="50" required>
+          <ul class="input-requirements">
+            <li>At least 5 characters long</li>
+          </ul>
+  
+        </label>
+  
+        <label for="password__repeat">
+          <span>Repeat password</span>
+  
+          <input type="password" id="password__repeat" minlength="5" maxlength="50" required>
+        
+        </label>
+  
+      
+        <input type="submit" class="submit">
+  
+      </form>
+    
+    <footer>
+      
+    </footer>
+  </div>
+  <script src="./dist/app.js"></script>
+</body>
+</html>
